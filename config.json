@@ -1,0 +1,17 @@
+{
+	"dev": {
+		"data": {
+			"url": "mongodb://localhost:27017/{dbName}"
+		},
+		"database": {
+			"host": "127.0.0.1",
+			"port": 1433,
+			"user": "{dbUser}",
+			"password": "{password}",
+			"database": "{dbName}",
+			"min.threadpool.size": 10,
+			"max.threadpool.size": 100,
+			"threadpool.log": false
+		}
+	}
+}

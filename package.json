@@ -1,0 +1,31 @@
+{
+  "name": "export-sql-to-mongodb",
+  "version": "1.0.0",
+  "description": "This exports sql tables to JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "export",
+    "migrate",
+    "json"
+  ],
+  "author": "Chidi Onuekwusi",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "mongodb": "^2.2.33",
+    "tedious": "^2.0.0",
+    "tedious-connection-pool": "^1.0.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chidionuekwusi/export-sql-to-mongodb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chidionuekwusi/export-sql-to-mongodb/issues"
+  },
+  "homepage": "https://github.com/chidionuekwusi/export-sql-to-mongodb#readme"
+}
